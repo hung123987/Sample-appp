@@ -1,0 +1,38 @@
+vi:
+  static_pages:
+    home:
+      home: Trang chủ
+      hom: Home
+      eng: Tiếng Anh
+      vie: Tiếng Việt
+      tutorial: Đây là trang chủ của
+      r_tutorial: Hướng dẫn về Ruby on Rails
+    help:
+      eng: Tiếng Anh
+      vie: Tiếng Việt
+      help: Trợ giúp
+      pagehelp: Nhận trợ giúp trên Ruby on Rails tại
+      apphelp: Nhận trợ giúp về ứng dụng này, hãy xem
+      r_help: Trang trợ giúp của Rails .
+      r_book: Sách hướng dẫn về Ruby on Rails
+    about:
+      eng: Tiếng Anh
+      vie: Tiếng Việt
+      ab: Thông tin
+      tr: The Ruby on Rails Tutorial
+      twdw: để dạy phát triển web với
+      saftt: đây là ứng dụng mẫu cho hướng dẫn
+      and: và
+      isa: là một
+      b: sách
+      ss: các bài giảng
+      ron: Ruby on Rails
+    contact:
+      eng: Tiếng Anh
+      vie: Tiếng Việt
+      ct_p: Trang liên lạc
+      con: Liên hệ
+      cto: Liên hệ với Ruby on Rails về ứng dụng mẫu tại
+  layouts:
+    application:
+      rosa: Ứng dụng mẫu Ruby on Rails
