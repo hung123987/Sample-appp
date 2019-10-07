@@ -1,12 +1,13 @@
 en:
   static_pages:
     home:
-      hom: Home
       home: Home
+      welcome: Welcome to the Sample App
       eng: English
       vie: Vietnamese
       tutorial: This is the home page for the
       r_tutorial: Ruby on Rails Tutorial
+      sign_up: Sign up now!
     help:
       help: Help
       eng: English
@@ -36,3 +37,22 @@ en:
   layouts:
     application:
       ruby_on_rails_sample_app: Ruby on Rails Sample App
+    header:
+      home: Home
+      help: Help
+      log_in: Log in
+      sample_app: sample app
+    footer:
+      about: About
+      contact: Contact
+      news: News
+      michaelhartl: Michael Hartl
+      ruby_on_rails_tutorial: Ruby On Rails Tutorial
+      the: The
+      by: by
+  users:
+    new:
+      signup_page: This will be a sign up page for new users.
+      signup: Sign up
+      eng: English
+      vie: Vietnamese

@@ -1,7 +1,12 @@
-<% provide :title, t(".hom") %>
+<% provide :title, t(".home") %>
 <%= link_to t(".eng"), locale: "en" %>
 <%= link_to t(".vie"), locale: "vi" %>
-<h1><%= t(".home") %></h1>
-<p>
+<div class="center jumbotron">
+  <h1><%= t(".welcome") %></h1>
+  <h2>
   <%= t(".tutorial") %> <%= link_to t(".r_tutorial"), Settings.link_railstutorial %>
-</p>
+  </h2>
+  <%= link_to t(".sign_up"), signup_path, class: "btn btn-lg btn-primary" %>
+</div>
+
+<%= link_to image_tag("rails.png", alt: "Rails logo", class: "rails_logo"), Settings.link_rubyonrails %>

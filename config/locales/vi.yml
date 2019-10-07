@@ -2,11 +2,12 @@ vi:
   static_pages:
     home:
       home: Trang chủ
-      hom: Home
+      welcome: Chào mừng đến với Ứng dụng mẫu
       eng: Tiếng Anh
       vie: Tiếng Việt
       tutorial: Đây là trang chủ của
       r_tutorial: Hướng dẫn về Ruby on Rails
+      sign_up: Đăng kí ngay!
     help:
       eng: Tiếng Anh
       vie: Tiếng Việt
@@ -18,21 +19,40 @@ vi:
     about:
       eng: Tiếng Anh
       vie: Tiếng Việt
-      ab: Thông tin
-      tr: The Ruby on Rails Tutorial
-      twdw: để dạy phát triển web với
-      saftt: đây là ứng dụng mẫu cho hướng dẫn
+      about: Thông tin
+      ruby_tuto: The Ruby on Rails Tutorial
+      teach_web: để dạy phát triển web với
+      the_sample_application: đây là ứng dụng mẫu cho hướng dẫn
       and: và
       isa: là một
-      b: sách
-      ss: các bài giảng
-      ron: Ruby on Rails
+      book: sách
+      screencast_series: các bài giảng
+      ruby_on_rails: Ruby on Rails
     contact:
       eng: Tiếng Anh
       vie: Tiếng Việt
-      ct_p: Trang liên lạc
-      con: Liên hệ
-      cto: Liên hệ với Ruby on Rails về ứng dụng mẫu tại
+      contact_page: Trang liên lạc
+      contact: Liên hệ
+      contact_the_ruby_on_rails_tutorial: Liên hệ với Ruby on Rails về ứng dụng mẫu tại
   layouts:
     application:
-      rosa: Ứng dụng mẫu Ruby on Rails
+      ruby_on_rails_sample_app: Ứng dụng mẫu Ruby on Rails
+    header:
+      home: Trang chủ
+      help: Trợ giúp
+      log_in: Đăng nhập
+      sample_app: ứng dụng mẫu
+    footer:
+      about: Về chúng tôi
+      contact: Liên hệ
+      news: Tin tức
+      michaelhartl: Michael Hartl
+      ruby_on_rails_tutorial: Ruby On Rails Tutorial
+      by: bởi
+      the: Sách
+  users:
+    new:
+      signup_page: Đây sẽ là một trang đăng ký cho người dùng mới.
+      signup: Đăng kí
+      eng: Tiếng Anh
+      vie: Tiếng Việt

@@ -34,7 +34,7 @@
 yarn-debug.log*
 .yarn-integrity
 /config/database.yml
-/config/credential.yml.enc
+config/credentials.yml.enc
 /test/
 /config/storage.yml
 
