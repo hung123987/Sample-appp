@@ -6,3 +6,7 @@ link_screencasts_railstutorial: http://screencasts.railstutorial.org/
 link_rubyonrails: http://rubyonrails.org/
 link_newsrails: http://news.railstutorial.org/
 link_michaelhartl: http://www.michaelhartl.com/
+constant: /\A[\w+\-.]+@[a-z\d\-.]+\.[a-z]+\z/i
+num50: 50
+num255: 255
+num6: 6
