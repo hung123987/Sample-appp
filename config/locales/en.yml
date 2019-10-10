@@ -56,3 +56,16 @@ en:
       signup: Sign up
       eng: English
       vie: Vietnamese
+      name: name
+      email: email
+      password: password
+      confirmation: Confirmation
+      create_my_account: Create my account
+    create:
+      welcome: Welcome to the Sample App!
+      warning: Registration failed
+    notfound: User does not exist
+  error:
+    one: 1 error
+    other: "%{count} errors"
+  the_form_contains: The form contains
