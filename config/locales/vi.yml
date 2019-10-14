@@ -56,3 +56,16 @@ vi:
       signup: Đăng kí
       eng: Tiếng Anh
       vie: Tiếng Việt
+      name: Tên
+      email: Email
+      password: Mật khẩu
+      confirmation: Xác nhận mật khẩu
+      create_my_account: Tạo tài khoản
+    create:
+      welcome: Chào mừng đến với ứng dụng mẫu!
+      warning: Đăng kí không thành công
+    notfound: Người dùng không tồn tại
+  error:
+    one: 1 lỗi
+    other: "%{count} lỗi"
+  the_form_contains: Biểu mẫu có chứa
