@@ -40,8 +40,13 @@ vi:
     header:
       home: Trang chủ
       help: Trợ giúp
-      log_in: Đăng nhập
+      login: Đăng nhập
       sample_app: ứng dụng mẫu
+      profile: Hồ sơ
+      users: Người dùng
+      logout: Đăng xuất
+      settings: Cài đặt
+      account: Tài khoản
     footer:
       about: Về chúng tôi
       contact: Liên hệ
@@ -50,6 +55,13 @@ vi:
       ruby_on_rails_tutorial: Ruby On Rails Tutorial
       by: bởi
       the: Sách
+  sessions:
+    new:
+      login: Đăng nhập
+      new_user: Người dùng mới ?
+      sign_up_now: Đăng kí ngay!
+      email: email
+      password: Mật khẩu
   users:
     new:
       signup_page: Đây sẽ là một trang đăng ký cho người dùng mới.
@@ -64,6 +76,7 @@ vi:
     create:
       welcome: Chào mừng đến với ứng dụng mẫu!
       warning: Đăng kí không thành công
+      invalid: Kết hợp email / mật khẩu không hợp lệ
     notfound: Người dùng không tồn tại
   error:
     one: 1 lỗi
