@@ -40,8 +40,13 @@ en:
     header:
       home: Home
       help: Help
-      log_in: Log in
+      login: Log in
       sample_app: sample app
+      profile: Profile
+      users: Users
+      logout: Log out
+      settings: Settings
+      account: Account
     footer:
       about: About
       contact: Contact
@@ -50,6 +55,13 @@ en:
       ruby_on_rails_tutorial: Ruby On Rails Tutorial
       the: The
       by: by
+  sessions:
+    new:
+      login: Log in
+      new_user: New user ?
+      sign_up_now: Sign up now!
+      email: email
+      password: password
   users:
     new:
       signup_page: This will be a sign up page for new users.
@@ -64,6 +76,7 @@ en:
     create:
       welcome: Welcome to the Sample App!
       warning: Registration failed
+      invalid: Invalid email/password combination
     notfound: User does not exist
   error:
     one: 1 error
