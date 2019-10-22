@@ -79,8 +79,29 @@ vi:
       welcome: Chào mừng đến với ứng dụng mẫu!
       warning: Đăng kí không thành công
       invalid: Kết hợp email / mật khẩu không hợp lệ
+    update:
+      profile: Hồ sơ đã được cập nhật
+      profile_warning: Hồ sơ cập nhật thất bại
+    destroy:
+      delete: Người dùng bị xóa
+    user:
+      delete: Xóa
+      you_sure: Bạn chắc chứ ?
+    edit:
+      edit_user: Chỉnh sửa thông tin
+      save_changes: Lưu thay đổi
+      update_your_profile: Cập nhật thông tin
+      change: Thay đổi
+    index:
+      all_users: Tất cả người dùng
+    form:
+      name: Tên
+      email: Email
+      password: Mật khẩu
+      password_confirmation: Xác nhận mật khẩu
     notfound: Người dùng không tồn tại
   error:
     one: 1 lỗi
     other: "%{count} lỗi"
   the_form_contains: Biểu mẫu có chứa
+  please_log_in: Xin hãy đăng nhập

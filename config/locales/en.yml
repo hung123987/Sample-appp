@@ -79,8 +79,29 @@ en:
       welcome: Welcome to the Sample App!
       warning: Registration failed
       invalid: Invalid email/password combination
+    update:
+      profile: Profile updated
+      profile_warning: Profile update failed
+    destroy:
+      delete: User delete
+    user:
+      delete: delete
+      you_sure: You sure?
+    edit:
+      edit_user: Edit user
+      save_changes: Save Changes
+      update_your_profile: Update your profile
+      change: change
+    index:
+      all_users: All users
+    form:
+      name: name
+      email: email
+      password: password
+      password_confirmation: password_confirmation
     notfound: User does not exist
   error:
     one: 1 error
     other: "%{count} errors"
   the_form_contains: The form contains
+  please_log_in: Please log in.
