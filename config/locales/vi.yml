@@ -76,7 +76,7 @@ vi:
       confirmation: Xác nhận mật khẩu
       create_my_account: Tạo tài khoản
     create:
-      welcome: Chào mừng đến với ứng dụng mẫu!
+      check_email: Hãy kiểm tra email của bạn để kích hoạt tài khoản của bạn.
       warning: Đăng kí không thành công
       invalid: Kết hợp email / mật khẩu không hợp lệ
     update:
@@ -105,3 +105,18 @@ vi:
     other: "%{count} lỗi"
   the_form_contains: Biểu mẫu có chứa
   please_log_in: Xin hãy đăng nhập
+  account_not_activated: Tài khoản chưa được kích hoạt. Kiểm tra email của bạn cho các liên kết kích hoạt.
+  account_activated: Tài khoản được kích hoạt!
+  invalid_activation: Liên kết kích hoạt không hợp lệ
+  user_mailer:
+    account_activation:
+      sample_app: Ứng dụng mẫu
+      hi: Chào
+      welcome: "Nhấp vào liên kết dưới đây để kích hoạt tài khoản của bạn:"
+      activate: Kích hoạt
+    password_reset:
+      user_password: User#password_reset
+      find: tìm tôi trong
+  mailers:
+    account_activation: Kích hoạt tài khoản
+    hi: Chào
