@@ -4,7 +4,7 @@ class SessionsController < ApplicationController
   def new; end
 
   def create
-    if @user&.authenticate @session[:password]
+    if @user&.authenticate @session_params[:password]
       if @user.activated?
         log_in @user
         session[:remember_me] == Settings.n1 ? remember(@user) : forget(@user)
@@ -28,8 +28,8 @@ class SessionsController < ApplicationController
   private
 
   def load_params
-    @session = params[:session]
-    @user = User.find_by email: @session[:email].downcase
+    @session_params = params[:session]
+    @user = User.find_by email: @session_params[:email].downcase
     return if @user
 
     flash.now[:danger] = t "users.create.invalid"

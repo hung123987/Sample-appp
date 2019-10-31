@@ -55,6 +55,19 @@ vi:
       ruby_on_rails_tutorial: Ruby On Rails Tutorial
       by: bởi
       the: Sách
+  password_resets:
+    new:
+      forgot_password: Quên mật khẩu
+      submit: Gửi đi
+      email: email
+    update:
+      cant_empty: không thể để trống
+    edit:
+      reset_password: Đặt lại mật khẩu
+      password: Mật khẩu
+      password_confirmation: Xác nhận mật khẩu
+      update_password: Cập nhật mật khẩu
+      confirmation: Xác nhận
   sessions:
     new:
       login: Đăng nhập
@@ -64,6 +77,7 @@ vi:
       password: Mật khẩu
       remember: Nhớ tài khoản trên máy tính này
       rememberme: remember_me
+      forgot_password: quên mật khẩu
   users:
     new:
       signup_page: Đây sẽ là một trang đăng ký cho người dùng mới.
@@ -108,15 +122,22 @@ vi:
   account_not_activated: Tài khoản chưa được kích hoạt. Kiểm tra email của bạn cho các liên kết kích hoạt.
   account_activated: Tài khoản được kích hoạt!
   invalid_activation: Liên kết kích hoạt không hợp lệ
+  email_password_reset: Email được gửi với hướng dẫn đặt lại mật khẩu
+  email_address_not_found: Không tìm thấy địa chỉ email
+  password_reset: Mật khẩu đã được đặt lại.
+  password_expired: Đặt lại mật khẩu đã hết hạn.
   user_mailer:
     account_activation:
       sample_app: Ứng dụng mẫu
-      hi: Chào
       welcome: "Nhấp vào liên kết dưới đây để kích hoạt tài khoản của bạn:"
       activate: Kích hoạt
+      hi: Chào
+      account_activation: Kích hoạt tài khoản
     password_reset:
-      user_password: User#password_reset
-      find: tìm tôi trong
-  mailers:
-    account_activation: Kích hoạt tài khoản
-    hi: Chào
+      account_activation: Kích hoạt tài khoản
+      password_reset: Đặt lại mật khẩu
+      click_the_link: "Để đặt lại mật khẩu của bạn, nhấp vào liên kết dưới đây:"
+      reset_password: Đặt lại mật khẩu
+      expire: Liên kết này sẽ hết hạn trong hai giờ.
+      ignore_this_email: Nếu bạn không yêu cầu đặt lại mật khẩu, vui lòng bỏ qua email này và
+        mật khẩu của bạn sẽ được giữ nguyên.
